@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tbh.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>MOVIES</title>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Entertainrr.</li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="ms.html">Movies</a></li>
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Music & podcasts</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="movie-container">
+                <label>Pick a movie:</label>
+                <select id="movie">
+                  <option value="160">Ponniyin selvan(Rs.160)</option>
+                  <option value="150">Love today(Rs.150)</option>
+                  <option value="150">Sardar(Rs.150)</option>
+                  <option value="130">Prince(Rs.130)</option>
+                </select>
+              </div>
+          
+              <ul class="showcase">
+                <li>
+                  <div class="seat"></div>
+                  <small>N/A</small>
+                </li>
+          
+                <li>
+                  <div class="seat selected"></div>
+                  <small>Selected</small>
+                </li>
+          
+                <li>
+                  <div class="seat occupied"></div>
+                  <small>Occupied</small>
+                </li>
+              </ul>
+          
+              <div class="container">
+                <div class="screen"></div>
+                <div class="row">
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                </div>
+                <div class="row">
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                </div>
+          
+                <div class="row">
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat occupied"></div>
+                </div>
+          
+                <div class="row">
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                </div>
+          
+                <div class="row">
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                </div>
+          
+                <div class="row">
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat occupied"></div>
+                  <div class="seat"></div>
+                </div>
+              </div>
+          
+              <p class="text">
+                You have selected <span id="count">0</span> seats for a price of Rs.<span id="total">0</span>
+              </p>
+              <script src="tbh.js"></script>
+
+</body>
+
+</html>

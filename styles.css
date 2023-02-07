@@ -1,0 +1,143 @@
+.body{
+    background-color:black;
+    background-image:url(bg1.png);
+    background-repeat: no-repeat;
+    background-position: flex;
+    background-size: cover;  
+}
+
+a:link{
+    text-decoration: none;
+}
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.nav{
+    
+    position: absolute;
+    margin-left: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li{
+    list-style: none;
+
+    
+}
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight:500;
+    letter-spacing:2.5px;
+    padding: 5px 1px;
+}
+.nav li:hover a{
+    color:#de0611;
+}
+.search input{
+    top :0;
+    left: 0;
+    color: #fff;
+    background : transparent;
+    border :1px solid rgba(255,255,2555,0.5);
+    outline:none;
+    border-radius:100px;
+    padding:0 5px;
+    backdrop-filter: blur(10px);
+
+}
+.search input::placeholder{
+    color:#fff;
+
+}
+
+.new{
+    /*background-image: url(vtk3.jpg);*/
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+  position: absolute;
+  padding: 15% 12%;
+  border-radius: 15px;
+  margin:12% 10% 0% 25%;
+}
+
+.img{
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    position: absolute;
+    margin:1% 0 100% 50%;
+}
+.re{
+    font-size: 60%;
+    color: white;
+    border-radius: 2px;
+    padding: 1px 2px;
+    text-align: center;
+    display: inline-block;
+    margin:15% 30% 0% 54%;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+.abt{
+    font-size: 70%;
+    color: white;
+    border-radius: 2px;
+    padding: 1px 2px;
+    text-align: center;
+    display: inline-block;
+    margin:0% 35% 0% 57.5%;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+.watchvtk{   
+    
+  background-color: #de7c5e;
+  color: white;
+  border-radius: 2px;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  margin:2% 0 0% 53.5%;
+}
+a:link{
+    text-decoration: none;
+}
+
+.watchvtk a:hover{
+    color: #fff;
+    
+}
+
+.trailervtk{
+    position: absolute;
+    background-color: #44a2b1;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    margin:2% 0 0% 3%;
+
+}
+
+.trailervtk a:hover{
+    color: white;
+    
+}
+
+.trend{
+    font-family: ;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    margin:11% 0 0% 53.5%;
+}
+
+
